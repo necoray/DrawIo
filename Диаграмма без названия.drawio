@@ -1,9 +1,74 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 YaBrowser/24.12.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Страница — 1" id="vRzMZdwz5EZOQYl7_uts">
-    <mxGraphModel>
+    <mxGraphModel dx="1259" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3LYSY_J3okIBwxPLui9d-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3LYSY_J3okIBwxPLui9d-1" target="3LYSY_J3okIBwxPLui9d-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3LYSY_J3okIBwxPLui9d-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3LYSY_J3okIBwxPLui9d-1" target="3LYSY_J3okIBwxPLui9d-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3LYSY_J3okIBwxPLui9d-1" value="Разработка проекта" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3LYSY_J3okIBwxPLui9d-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3LYSY_J3okIBwxPLui9d-7" target="3LYSY_J3okIBwxPLui9d-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3LYSY_J3okIBwxPLui9d-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3LYSY_J3okIBwxPLui9d-7" target="3LYSY_J3okIBwxPLui9d-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3LYSY_J3okIBwxPLui9d-7" value="Организация рабочей деятельности" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3LYSY_J3okIBwxPLui9d-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3LYSY_J3okIBwxPLui9d-9" target="3LYSY_J3okIBwxPLui9d-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3LYSY_J3okIBwxPLui9d-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3LYSY_J3okIBwxPLui9d-9" target="3LYSY_J3okIBwxPLui9d-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3LYSY_J3okIBwxPLui9d-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3LYSY_J3okIBwxPLui9d-9" target="3LYSY_J3okIBwxPLui9d-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3LYSY_J3okIBwxPLui9d-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3LYSY_J3okIBwxPLui9d-9" target="3LYSY_J3okIBwxPLui9d-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3LYSY_J3okIBwxPLui9d-9" value="Разработка АИС" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3LYSY_J3okIBwxPLui9d-12" value="Проведение плановых совещаний" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3LYSY_J3okIBwxPLui9d-14" value="Создание задач и назначение ответственных" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3LYSY_J3okIBwxPLui9d-16" value="Разработка клиентской части ПО" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3LYSY_J3okIBwxPLui9d-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3LYSY_J3okIBwxPLui9d-20" target="3LYSY_J3okIBwxPLui9d-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3LYSY_J3okIBwxPLui9d-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3LYSY_J3okIBwxPLui9d-20" target="3LYSY_J3okIBwxPLui9d-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3LYSY_J3okIBwxPLui9d-20" value="Разработка серверной части ПО" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="370" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3LYSY_J3okIBwxPLui9d-23" value="Реализация бизнес логики" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="505" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3LYSY_J3okIBwxPLui9d-25" value="Создание базы данных" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="505" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
