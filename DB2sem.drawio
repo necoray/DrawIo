@@ -466,7 +466,7 @@
             <mxRectangle x="-450" y="500" width="200" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WXBSTSrOt1GdM5MRFESl-6" value="+x: REAL&amp;nbsp;&lt;div&gt;+y: REAL&amp;nbsp;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=14;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="WXBSTSrOt1GdM5MRFESl-5">
+        <mxCell id="WXBSTSrOt1GdM5MRFESl-6" value="+x: REAL NOT NULL;&lt;div&gt;+y: REAL NOT NULL&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=14;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="WXBSTSrOt1GdM5MRFESl-5">
           <mxGeometry y="50" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WXBSTSrOt1GdM5MRFESl-23" value="ParkObj" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;strokeWidth=2;fontSize=13;" vertex="1" parent="1">
