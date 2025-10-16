@@ -1,61 +1,88 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36" version="27.0.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" version="28.2.7">
   <diagram name="Страница — 1" id="sukOQio9LhuAJRYUYSQe">
-    <mxGraphModel dx="1001" dy="550" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1668" dy="944" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TLHE_Pf2UUKmud1E73vq-1" value="Пользователь" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" parent="1" vertex="1">
-          <mxGeometry x="170" y="230" width="80" height="80" as="geometry" />
+        <mxCell id="Ia6zci2rWFvH7IBCojSs-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="142" y="376" width="560.5" height="252" as="geometry" />
         </mxCell>
-        <mxCell id="TLHE_Pf2UUKmud1E73vq-2" value="WEB - сервер" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/storage/Datacenter_Server_Half_Rack_ToR.svg;" parent="1" vertex="1">
+        <mxCell id="Ia6zci2rWFvH7IBCojSs-22" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="366" y="291.26" width="488.12" height="184.87" as="geometry" />
+        </mxCell>
+        <mxCell id="Ia6zci2rWFvH7IBCojSs-32" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#ffffff, #ededed);strokeWidth=0;fillColor=default;glass=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="453.5" y="393.5" width="249" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="Ia6zci2rWFvH7IBCojSs-33" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#ffffff, #ededed);strokeWidth=0;fillColor=default;glass=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="398" y="263" width="249" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="TLHE_Pf2UUKmud1E73vq-2" value="WEB - сервер" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/storage/Datacenter_Server_Half_Rack_ToR.svg;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="565.9" y="212.7" width="88.2" height="114.6" as="geometry" />
         </mxCell>
-        <mxCell id="TLHE_Pf2UUKmud1E73vq-3" value="Сервер бизнес логики (Back-end)" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/storage/Datacenter_Server_Rack_ToR.svg;" parent="1" vertex="1">
-          <mxGeometry x="400.00000000000006" y="406" width="88.2" height="178.8" as="geometry" />
+        <mxCell id="TLHE_Pf2UUKmud1E73vq-6" value="База&amp;nbsp;&lt;div&gt;данных&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="160" y="469.4" width="100" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="TLHE_Pf2UUKmud1E73vq-6" value="База&amp;nbsp;&lt;div&gt;данных&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="440" width="100" height="120" as="geometry" />
+        <mxCell id="Ia6zci2rWFvH7IBCojSs-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="142" y="140" width="342" height="207" as="geometry" />
         </mxCell>
-        <mxCell id="TLHE_Pf2UUKmud1E73vq-20" value="" style="edgeStyle=none;shape=connector;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" parent="1" source="TLHE_Pf2UUKmud1E73vq-10" target="TLHE_Pf2UUKmud1E73vq-2" edge="1">
+        <mxCell id="TLHE_Pf2UUKmud1E73vq-20" value="" style="edgeStyle=none;shape=connector;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;startArrow=classic;startFill=1;fontStyle=1" parent="1" source="TLHE_Pf2UUKmud1E73vq-10" target="TLHE_Pf2UUKmud1E73vq-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TLHE_Pf2UUKmud1E73vq-10" value="Клиент (front-end)" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" parent="1" vertex="1">
+        <mxCell id="TLHE_Pf2UUKmud1E73vq-10" value="&lt;span&gt;&lt;span&gt;Клиент / front-end&lt;/span&gt;&lt;/span&gt;" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;fontSize=14;labelBackgroundColor=#FF333300;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="374" y="230" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TLHE_Pf2UUKmud1E73vq-18" value="Хранилище медиа" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="435.4" width="100" height="120" as="geometry" />
+        <mxCell id="TLHE_Pf2UUKmud1E73vq-18" value="Хранилище медиа" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="560" y="469.4" width="100" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="TLHE_Pf2UUKmud1E73vq-22" value="" style="edgeStyle=none;shape=connector;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" parent="1" source="TLHE_Pf2UUKmud1E73vq-1" target="TLHE_Pf2UUKmud1E73vq-10" edge="1">
+        <mxCell id="TLHE_Pf2UUKmud1E73vq-22" value="" style="edgeStyle=none;shape=connector;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;startArrow=classic;startFill=1;fontStyle=1" parent="1" source="TLHE_Pf2UUKmud1E73vq-1" target="TLHE_Pf2UUKmud1E73vq-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="228.3" as="sourcePoint" />
             <mxPoint x="270" y="327.3" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TLHE_Pf2UUKmud1E73vq-23" value="" style="edgeStyle=none;shape=connector;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" parent="1" edge="1">
+        <mxCell id="TLHE_Pf2UUKmud1E73vq-23" value="" style="edgeStyle=none;shape=connector;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;startArrow=classic;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontStyle=1" parent="1" edge="1" target="TLHE_Pf2UUKmud1E73vq-3" source="TLHE_Pf2UUKmud1E73vq-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="500" as="sourcePoint" />
             <mxPoint x="390" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TLHE_Pf2UUKmud1E73vq-24" value="" style="edgeStyle=none;shape=connector;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;startArrow=classic;startFill=1;entryX=0.036;entryY=0.91;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.767;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TLHE_Pf2UUKmud1E73vq-3" target="TLHE_Pf2UUKmud1E73vq-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="460" y="400" as="sourcePoint" />
-            <mxPoint x="540" y="340" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TLHE_Pf2UUKmud1E73vq-26" value="" style="edgeStyle=none;shape=connector;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" parent="1" edge="1" source="TLHE_Pf2UUKmud1E73vq-18">
+        <mxCell id="TLHE_Pf2UUKmud1E73vq-26" value="" style="edgeStyle=none;shape=connector;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;startArrow=classic;startFill=1;fontStyle=1" parent="1" source="TLHE_Pf2UUKmud1E73vq-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="440" as="sourcePoint" />
             <mxPoint x="610" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k8n54HIVoNAtHLfDnkMe-1" value="" style="edgeStyle=none;shape=connector;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;startArrow=classic;startFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TLHE_Pf2UUKmud1E73vq-18" target="TLHE_Pf2UUKmud1E73vq-3">
+        <mxCell id="k8n54HIVoNAtHLfDnkMe-1" value="" style="edgeStyle=none;shape=connector;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;startArrow=classic;startFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontStyle=1" parent="1" source="TLHE_Pf2UUKmud1E73vq-18" target="TLHE_Pf2UUKmud1E73vq-3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="509" as="sourcePoint" />
+            <mxPoint x="542" y="500" as="sourcePoint" />
             <mxPoint x="741" y="420" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Ia6zci2rWFvH7IBCojSs-3" value="&lt;h2&gt;&lt;font&gt;Клиентская часть&lt;/font&gt;&lt;/h2&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="142" y="140" width="350" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TLHE_Pf2UUKmud1E73vq-1" value="Пользователь" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" parent="1" vertex="1">
+          <mxGeometry x="170" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TLHE_Pf2UUKmud1E73vq-24" value="" style="edgeStyle=none;shape=connector;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;startArrow=classic;startFill=1;entryX=0.036;entryY=0.91;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1" parent="1" target="TLHE_Pf2UUKmud1E73vq-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="433" y="426" as="sourcePoint" />
+            <mxPoint x="540" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ia6zci2rWFvH7IBCojSs-28" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;fontStyle=1;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="375.97" as="sourcePoint" />
+            <mxPoint x="518" y="247.97000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLHE_Pf2UUKmud1E73vq-3" value="&lt;span&gt;Сервер бизнес логики / Back-end&lt;/span&gt;" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/storage/Datacenter_Server_Rack_ToR.svg;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="369.90000000000003" y="410.6" width="88.2" height="178.8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ia6zci2rWFvH7IBCojSs-34" value="&lt;h2&gt;&lt;span&gt;Серверная часть&lt;/span&gt;&lt;/h2&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="118" y="386" width="296" height="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
