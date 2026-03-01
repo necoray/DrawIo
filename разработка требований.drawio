@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36" version="29.5.3">
   <diagram name="Страница-1" id="xF7BMyvnXZdang9IoLiz">
-    <mxGraphModel dx="1264" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="733" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,6 +85,37 @@
         </mxCell>
         <mxCell id="-6HRb_H3EUiMCDmdtT3n-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Да" vertex="1">
           <mxGeometry height="30" width="60" x="970" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HRb_H3EUiMCDmdtT3n-15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.995;exitY=0.309;exitDx=0;exitDy=0;entryX=0.019;entryY=0.831;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="-6HRb_H3EUiMCDmdtT3n-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="970" />
+            </Array>
+            <mxPoint x="429.9999999999999" y="970.0799999999999" as="sourcePoint" />
+            <mxPoint x="604.4461538461538" y="970.0015384615383" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HRb_H3EUiMCDmdtT3n-18" connectable="0" parent="-6HRb_H3EUiMCDmdtT3n-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Результат" vertex="1">
+          <mxGeometry relative="1" x="-0.2578" y="1" as="geometry">
+            <mxPoint x="19" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HRb_H3EUiMCDmdtT3n-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Модуль вычислений вычислений" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="-6HRb_H3EUiMCDmdtT3n-16" edge="1" parent="1" source="-6HRb_H3EUiMCDmdtT3n-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.131;exitY=0.183;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="596.4145454545455" y="930.8363636363638" as="sourcePoint" />
+            <mxPoint x="431" y="931" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HRb_H3EUiMCDmdtT3n-19" connectable="0" parent="-6HRb_H3EUiMCDmdtT3n-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Входные данные" vertex="1">
+          <mxGeometry relative="1" x="-0.117" y="-1" as="geometry">
+            <mxPoint x="-8" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6HRb_H3EUiMCDmdtT3n-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Модуль ввода\вывода информации&lt;div&gt;(интерфейс)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="920" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
