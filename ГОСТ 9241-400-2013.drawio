@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36" version="29.6.0">
+  <diagram name="Страница-1" id="S4Rl3FPfPyAETuYjSisX">
+    <mxGraphModel dx="1047" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4IpckceLwZJ2nDQdWxpw-8" edge="1" parent="1" source="4IpckceLwZJ2nDQdWxpw-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.972;exitY=0.071;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="4IpckceLwZJ2nDQdWxpw-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="412" y="560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4IpckceLwZJ2nDQdWxpw-9" edge="1" parent="1" source="4IpckceLwZJ2nDQdWxpw-5" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="4IpckceLwZJ2nDQdWxpw-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4IpckceLwZJ2nDQdWxpw-10" edge="1" parent="1" source="4IpckceLwZJ2nDQdWxpw-5" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4IpckceLwZJ2nDQdWxpw-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4IpckceLwZJ2nDQdWxpw-11" edge="1" parent="1" source="4IpckceLwZJ2nDQdWxpw-5" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4IpckceLwZJ2nDQdWxpw-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4IpckceLwZJ2nDQdWxpw-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Типология устройств ввода&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="116" x="354" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="4IpckceLwZJ2nDQdWxpw-7" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;perimeterSpacing=0;spacingLeft=13;spacing=2;" value="&lt;b&gt;По степени свободы:&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- одномерные;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- двухмерные;&lt;/span&gt;&lt;br&gt;- трехмерные." vertex="1">
+          <mxGeometry height="85" width="270" x="470" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="4IpckceLwZJ2nDQdWxpw-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;spacingLeft=13;" value="&lt;b&gt;По части тела, используемой для управления:&lt;/b&gt;&lt;br&gt;-управляемые рукой и пальцем&lt;br&gt;- управляемые ногой&lt;br&gt;- управляемые ртом&lt;br&gt;- управляемые речью&lt;br&gt;- управляемые глазами&lt;br&gt;- управляемые движением" vertex="1">
+          <mxGeometry height="120" width="370" x="470" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="4IpckceLwZJ2nDQdWxpw-14" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;spacingLeft=13;" value="&lt;b&gt;По ощущаемым свойствам:&lt;/b&gt;&lt;br&gt;- по давлению&lt;br&gt;- по движению&lt;br&gt;- по положению&lt;br&gt;- по звуку&amp;nbsp;&lt;br&gt;- по оптическим свойствам" vertex="1">
+          <mxGeometry height="140" width="314" x="40" y="402.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4IpckceLwZJ2nDQdWxpw-15" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;spacingLeft=13;" value="&lt;b&gt;По элементарным действиям:&lt;/b&gt;&lt;br&gt;- по вводу кода&lt;br&gt;- по указанию&lt;br&gt;- по перетаскиванию&lt;br&gt;- по выбору&lt;br&gt;- по отслеживанию" vertex="1">
+          <mxGeometry height="100" width="254" x="100" y="680" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
