@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 YaBrowser/26.3.0.0 Safari/537.36" version="29.6.6">
   <diagram name="Страница-1" id="sCNzuzJ2qtA9W1rVOGMo">
-    <mxGraphModel dx="2156" dy="1219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2619" dy="1480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry height="680" width="1010" x="570" y="440" as="geometry" />
         </mxCell>
         <mxCell id="eyIERCFBYGc_n6pkd5Hn-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Форма авторизации" vertex="1">
-          <mxGeometry height="60" width="120" x="90" y="250" as="geometry" />
+          <mxGeometry height="60" width="120" x="10" y="260" as="geometry" />
         </mxCell>
         <mxCell id="eyIERCFBYGc_n6pkd5Hn-6" edge="1" parent="1" source="eyIERCFBYGc_n6pkd5Hn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="eyIERCFBYGc_n6pkd5Hn-41" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -106,17 +106,20 @@
         <mxCell id="eyIERCFBYGc_n6pkd5Hn-33" edge="1" parent="1" source="eyIERCFBYGc_n6pkd5Hn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eyIERCFBYGc_n6pkd5Hn-32" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="v7fbb9pDON9tI281r4lr-3" edge="1" parent="1" source="eyIERCFBYGc_n6pkd5Hn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="v7fbb9pDON9tI281r4lr-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eyIERCFBYGc_n6pkd5Hn-23" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Запрос" vertex="1">
           <mxGeometry height="60" width="120" x="540" y="330" as="geometry" />
         </mxCell>
         <mxCell id="eyIERCFBYGc_n6pkd5Hn-27" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Истекло время ожидания ответа" vertex="1">
-          <mxGeometry height="60" width="120" x="910" y="555" as="geometry" />
+          <mxGeometry height="60" width="120" x="890" y="555" as="geometry" />
         </mxCell>
         <mxCell id="eyIERCFBYGc_n6pkd5Hn-29" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Сервер недоступен" vertex="1">
-          <mxGeometry height="60" width="120" x="1050" y="555" as="geometry" />
+          <mxGeometry height="60" width="120" x="1030" y="555" as="geometry" />
         </mxCell>
         <mxCell id="eyIERCFBYGc_n6pkd5Hn-32" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Запрос некорректен" vertex="1">
-          <mxGeometry height="60" width="120" x="1200" y="555" as="geometry" />
+          <mxGeometry height="60" width="120" x="1160" y="555" as="geometry" />
         </mxCell>
         <mxCell id="eyIERCFBYGc_n6pkd5Hn-37" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" value="ОТсутствует" vertex="1">
           <mxGeometry height="60" width="120" x="670" y="780" as="geometry" />
@@ -126,6 +129,9 @@
         </mxCell>
         <mxCell id="eyIERCFBYGc_n6pkd5Hn-42" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="Соглашение" vertex="1">
           <mxGeometry height="60" width="120" x="420" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="v7fbb9pDON9tI281r4lr-2" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="CSRF" vertex="1">
+          <mxGeometry height="60" width="120" x="1300" y="555" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
