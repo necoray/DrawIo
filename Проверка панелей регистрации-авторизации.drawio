@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 YaBrowser/26.3.0.0 Safari/537.36" version="29.6.6">
   <diagram name="Страница-1" id="sCNzuzJ2qtA9W1rVOGMo">
-    <mxGraphModel dx="3583" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4474" dy="1594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,14 +156,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AyK50Y3RVpniEvwZn7R8-38" edge="1" parent="1" source="AyK50Y3RVpniEvwZn7R8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AyK50Y3RVpniEvwZn7R8-36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="AyK50Y3RVpniEvwZn7R8-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Логин" vertex="1">
           <mxGeometry height="60" width="120" x="-949" y="450" as="geometry" />
         </mxCell>
         <mxCell id="AyK50Y3RVpniEvwZn7R8-13" edge="1" parent="1" source="AyK50Y3RVpniEvwZn7R8-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AyK50Y3RVpniEvwZn7R8-32">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-620" y="650" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="AyK50Y3RVpniEvwZn7R8-14" edge="1" parent="1" source="AyK50Y3RVpniEvwZn7R8-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="AyK50Y3RVpniEvwZn7R8-19">
           <mxGeometry relative="1" as="geometry">
@@ -171,9 +172,6 @@
               <mxPoint x="-623" y="650" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="AyK50Y3RVpniEvwZn7R8-37" edge="1" parent="1" source="AyK50Y3RVpniEvwZn7R8-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AyK50Y3RVpniEvwZn7R8-36">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AyK50Y3RVpniEvwZn7R8-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Почта" vertex="1">
           <mxGeometry height="60" width="120" x="-943" y="620" as="geometry" />
@@ -197,7 +195,7 @@
         <mxCell id="AyK50Y3RVpniEvwZn7R8-17" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Пароль" vertex="1">
           <mxGeometry height="60" width="120" x="-943" y="700" as="geometry" />
         </mxCell>
-        <mxCell id="AyK50Y3RVpniEvwZn7R8-19" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Уже существует" vertex="1">
+        <mxCell id="AyK50Y3RVpniEvwZn7R8-19" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Отсутсвтует в системе" vertex="1">
           <mxGeometry height="60" width="120" x="-683" y="555" as="geometry" />
         </mxCell>
         <mxCell id="AyK50Y3RVpniEvwZn7R8-22" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="Не относящаяся к делу проблема" vertex="1">
@@ -238,9 +236,6 @@
         </mxCell>
         <mxCell id="AyK50Y3RVpniEvwZn7R8-35" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="CSRF" vertex="1">
           <mxGeometry height="60" width="120" x="-63" y="555" as="geometry" />
-        </mxCell>
-        <mxCell id="AyK50Y3RVpniEvwZn7R8-36" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Отсутствует в системе" vertex="1">
-          <mxGeometry height="60" width="120" x="-593" y="670" as="geometry" />
         </mxCell>
         <mxCell id="AyK50Y3RVpniEvwZn7R8-39" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Не подходит" vertex="1">
           <mxGeometry height="60" width="120" x="-730" y="890" as="geometry" />
