@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="-aKCydseDUp1Hpq1NooQ">
-    <mxGraphModel dx="2244" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2568" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,13 +20,64 @@
           <mxGeometry height="30" width="30" x="1160" y="1390" as="geometry" />
         </mxCell>
         <mxCell id="zykv-aS3wpWUiPUegwPC-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fontSize=7;" value="Гайка" vertex="1">
-          <mxGeometry height="30" width="30" x="1760" y="1220" as="geometry" />
+          <mxGeometry height="30" width="30" x="1750" y="760" as="geometry" />
         </mxCell>
-        <mxCell id="zykv-aS3wpWUiPUegwPC-9" parent="1" style="shape=or;whiteSpace=wrap;html=1;shapeInside=1;rotation=-60;" value="Клей&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="60" x="1280" y="1130" as="geometry" />
-        </mxCell>
-        <mxCell id="zykv-aS3wpWUiPUegwPC-3" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;opacity=70;" value="Фиксирующее кольцо&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="zykv-aS3wpWUiPUegwPC-3" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;opacity=70;" value="Фиксирующее кольцо / Хомут&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="1260" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="zykv-aS3wpWUiPUegwPC-13" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="140" width="254" x="1720" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="zykv-aS3wpWUiPUegwPC-10" parent="zykv-aS3wpWUiPUegwPC-13" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zykv-aS3wpWUiPUegwPC-11" parent="zykv-aS3wpWUiPUegwPC-13" style="rounded=0;whiteSpace=wrap;html=1;" value="УГОЛОЛОК" vertex="1">
+          <mxGeometry height="60" width="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zykv-aS3wpWUiPUegwPC-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;opacity=70;rotation=-90;" value="ПВХ труба" vertex="1">
+          <mxGeometry height="60" width="320" x="1650" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="zykv-aS3wpWUiPUegwPC-51" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="300" width="195" x="860" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="zykv-aS3wpWUiPUegwPC-52" parent="zykv-aS3wpWUiPUegwPC-51" style="rounded=0;whiteSpace=wrap;html=1;opacity=70;rotation=0;container=0;" value="" vertex="1">
+          <mxGeometry height="40" width="60" x="105" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zykv-aS3wpWUiPUegwPC-53" parent="zykv-aS3wpWUiPUegwPC-51" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;opacity=70;container=0;" value="ФИксатор с пространством сверху" vertex="1">
+          <mxGeometry height="80" width="120" x="75" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="zykv-aS3wpWUiPUegwPC-54" parent="zykv-aS3wpWUiPUegwPC-51" style="rounded=1;whiteSpace=wrap;html=1;rotation=55;opacity=70;fillStyle=solid;horizontal=0;" value="&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Пластина с двух сторон. КРивая&lt;/span&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="170" x="20" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zykv-aS3wpWUiPUegwPC-55" parent="zykv-aS3wpWUiPUegwPC-51" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fontSize=7;" value="Гайка" vertex="1">
+          <mxGeometry height="30" width="30" x="120" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="zykv-aS3wpWUiPUegwPC-56" parent="zykv-aS3wpWUiPUegwPC-51" style="rounded=0;whiteSpace=wrap;html=1;opacity=70;rotation=-30;container=0;" value="Большая труба&lt;br&gt;Под контроллер" vertex="1">
+          <mxGeometry height="130" width="105" as="geometry" />
+        </mxCell>
+        <mxCell id="zykv-aS3wpWUiPUegwPC-57" parent="zykv-aS3wpWUiPUegwPC-51" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Клепка" vertex="1">
+          <mxGeometry height="30" width="60" x="45" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zykv-aS3wpWUiPUegwPC-66" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="300" width="195" x="290" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="zykv-aS3wpWUiPUegwPC-67" parent="zykv-aS3wpWUiPUegwPC-66" style="rounded=0;whiteSpace=wrap;html=1;opacity=70;rotation=0;container=0;" value="" vertex="1">
+          <mxGeometry height="40" width="60" x="105" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zykv-aS3wpWUiPUegwPC-68" parent="zykv-aS3wpWUiPUegwPC-66" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;opacity=70;container=0;" value="ФИксатор с пространством сверху" vertex="1">
+          <mxGeometry height="80" width="120" x="75" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="zykv-aS3wpWUiPUegwPC-69" parent="zykv-aS3wpWUiPUegwPC-66" style="rounded=1;whiteSpace=wrap;html=1;rotation=55;opacity=70;fillStyle=solid;horizontal=0;" value="&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Пластина с двух сторон. КРивая&lt;/span&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="170" x="20" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zykv-aS3wpWUiPUegwPC-70" parent="zykv-aS3wpWUiPUegwPC-66" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fontSize=7;" value="Гайка" vertex="1">
+          <mxGeometry height="30" width="30" x="120" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="zykv-aS3wpWUiPUegwPC-71" parent="zykv-aS3wpWUiPUegwPC-66" style="rounded=0;whiteSpace=wrap;html=1;opacity=70;rotation=-30;container=0;" value="Большая труба&lt;br&gt;Под контроллер" vertex="1">
+          <mxGeometry height="130" width="105" as="geometry" />
+        </mxCell>
+        <mxCell id="zykv-aS3wpWUiPUegwPC-72" parent="zykv-aS3wpWUiPUegwPC-66" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Клепка" vertex="1">
+          <mxGeometry height="30" width="60" x="45" y="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
