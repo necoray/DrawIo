@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="GPKyvcQWyVCEoHRrRKNA">
-    <mxGraphModel dx="4956" dy="2547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5458" dy="2827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -197,6 +197,102 @@
         </mxCell>
         <mxCell id="glccPwyOLuASxe-zW6xg-14" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;pre style=&quot;color: rgb(0, 0, 0); font-size: 9pt; text-align: left; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;multiply_rows(&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;m1&lt;/span&gt;, &lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;m2&lt;/span&gt;, result, &lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;size&lt;/span&gt;, 0, &lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;size&lt;/span&gt;);&lt;/pre&gt;" vertex="1">
           <mxGeometry height="60" width="403.5" x="-913.75" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-17" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(111, 0, 138);&quot;&gt;Matrix&lt;/span&gt; mult_matrix_parallel_for(&lt;span style=&quot;color: rgb(111, 0, 138);&quot;&gt;Matrix&lt;/span&gt; &lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;m1&lt;/span&gt;, &lt;span style=&quot;color: rgb(111, 0, 138);&quot;&gt;Matrix&lt;/span&gt; &lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;m2&lt;/span&gt;, &lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;int&lt;/span&gt; &lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;size&lt;/span&gt;, &lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;double&lt;/span&gt;&amp;amp; &lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;elapsed_time&lt;/span&gt;) {&lt;br&gt;    &lt;span style=&quot;color: rgb(111, 0, 138);&quot;&gt;Matrix&lt;/span&gt; result = allocate_matrix(&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;size&lt;/span&gt;);&lt;br&gt;    &lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;double&lt;/span&gt; t0 = omp_get_wtime();&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;#pragma&lt;/span&gt; omp parallel &lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;for&lt;/span&gt; num_threads(&lt;span style=&quot;color: rgb(111, 0, 138);&quot;&gt;NUM_THREADS&lt;/span&gt;)&lt;br&gt;    &lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;for&lt;/span&gt; (&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;int&lt;/span&gt; i = 0; i &amp;lt; &lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;size&lt;/span&gt;; ++i) {&lt;br&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;#if&lt;/span&gt; &lt;span style=&quot;color: rgb(111, 0, 138);&quot;&gt;__DEBUG__&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;#pragma&lt;/span&gt; omp critical&lt;br&gt;        { std::cout &amp;lt;&amp;lt; &lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;[FOR] Thread &quot;&lt;/span&gt; &amp;lt;&amp;lt; omp_get_thread_num() &amp;lt;&amp;lt; &lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot; row &quot;&lt;/span&gt; &amp;lt;&amp;lt; i &amp;lt;&amp;lt; &lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;\n&quot;&lt;/span&gt;; }&lt;br&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;#endif&lt;/span&gt;&lt;br&gt;        multiply_rows(&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;m1&lt;/span&gt;, &lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;m2&lt;/span&gt;, result, &lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;size&lt;/span&gt;, i, i + 1);&lt;br&gt;    }&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;double&lt;/span&gt; t1 = omp_get_wtime();&lt;br&gt;    &lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;elapsed_time&lt;/span&gt; = t1 - t0;&lt;br&gt;    &lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;return&lt;/span&gt; result;&lt;br&gt;}&lt;br&gt;&lt;br&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="270" width="560" x="-1220" y="-1020" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-24" edge="1" parent="1" source="glccPwyOLuASxe-zW6xg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=gap;" target="glccPwyOLuASxe-zW6xg-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;align=center;labelBackgroundColor=none;" value="&lt;pre style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-size: 9pt; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;mult_matrix_parallel_manual&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="80" width="250" x="-1580" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-26" edge="1" parent="1" source="glccPwyOLuASxe-zW6xg-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;" target="glccPwyOLuASxe-zW6xg-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-23" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;align=center;" value="&lt;pre style=&quot;font-size: 9pt; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;Matrix m1, Matrix m2, int size, double&amp;amp; elapsed_time&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="45" width="420" x="-1665" y="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-28" edge="1" parent="1" source="glccPwyOLuASxe-zW6xg-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="glccPwyOLuASxe-zW6xg-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;font-size: 9pt; text-align: left; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;result = allocate_matrix(size);&lt;br&gt;chunk = size / NUM_THREADS;&lt;br&gt;t0 = omp_get_wtime();&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="70" width="345" x="-1627.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-54" edge="1" parent="1" source="glccPwyOLuASxe-zW6xg-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="glccPwyOLuASxe-zW6xg-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;font-size: 9pt; text-align: left; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;#pragma omp parallel sections num_threads(NUM_THREADS)&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="435" x="-1672.5" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;font-size: 9pt; text-align: left; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;#pragma omp section&lt;br&gt;{ multiply_rows(m1, m2, result, size, 0 * chunk, 1 * chunk); }&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="460" x="-1620" y="387.5" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-61" edge="1" parent="1" source="glccPwyOLuASxe-zW6xg-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="glccPwyOLuASxe-zW6xg-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1090" y="600" />
+              <mxPoint x="-1090" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;font-size: 9pt; text-align: left; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;#pragma omp section&lt;br&gt;{ multiply_rows(m1, m2, result, size, (NUM_THREADS - 1) * chunk, size); }&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="516.25" x="-1620" y="572.5" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="..." vertex="1">
+          <mxGeometry height="60" width="120" x="-1620" y="472.5" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-55" edge="1" parent="1" source="glccPwyOLuASxe-zW6xg-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=gap;" target="glccPwyOLuASxe-zW6xg-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1672.5" y="417.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-56" edge="1" parent="1" source="glccPwyOLuASxe-zW6xg-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;" target="glccPwyOLuASxe-zW6xg-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1660" y="502.5" />
+              <mxPoint x="-1660" y="502.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-57" edge="1" parent="1" source="glccPwyOLuASxe-zW6xg-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;defaultLabelBackgroundColor=gap;" target="glccPwyOLuASxe-zW6xg-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1672.5" y="602.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-53" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="310" width="20" x="-1692.5" y="387.5" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-62" edge="1" parent="1" source="glccPwyOLuASxe-zW6xg-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;" target="glccPwyOLuASxe-zW6xg-63">
+          <mxGeometry relative="1" x="0.1252" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1020" y="790" />
+              <mxPoint x="-1470" y="790" />
+            </Array>
+            <mxPoint x="-1460" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-58" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="310" width="20" x="-1030" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-59" edge="1" parent="1" source="glccPwyOLuASxe-zW6xg-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.039;entryY=0.189;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=gap;" target="glccPwyOLuASxe-zW6xg-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-60" edge="1" parent="1" source="glccPwyOLuASxe-zW6xg-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.135;entryY=0.306;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=gap;" target="glccPwyOLuASxe-zW6xg-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-66" edge="1" parent="1" source="glccPwyOLuASxe-zW6xg-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;" target="glccPwyOLuASxe-zW6xg-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;font-size: 9pt; text-align: left; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;double t1 = omp_get_wtime();&lt;br&gt;elapsed_time = t1 - t0;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="45" width="240" x="-1600" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="glccPwyOLuASxe-zW6xg-65" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="result,&lt;br&gt;elapsed_time // По ссылке" vertex="1">
+          <mxGeometry height="60" width="230" x="-1595" y="890" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
