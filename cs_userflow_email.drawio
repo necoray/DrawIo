@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="9xWM8fkBBqZtY7Agmd1S">
+    <mxGraphModel dx="1691" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="penVImUHDbPz1qeiOtP_-7" edge="1" parent="1" source="penVImUHDbPz1qeiOtP_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="penVImUHDbPz1qeiOtP_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="penVImUHDbPz1qeiOtP_-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Авторизованный ползьователь с подтвержденной почтой" vertex="1">
+          <mxGeometry height="60" width="30" x="170" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="penVImUHDbPz1qeiOtP_-11" edge="1" parent="1" source="penVImUHDbPz1qeiOtP_-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="penVImUHDbPz1qeiOtP_-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="penVImUHDbPz1qeiOtP_-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Неавторизованный пользователь" vertex="1">
+          <mxGeometry height="60" width="30" x="170" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="penVImUHDbPz1qeiOtP_-5" edge="1" parent="1" source="penVImUHDbPz1qeiOtP_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="penVImUHDbPz1qeiOtP_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="penVImUHDbPz1qeiOtP_-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Авторизованный пользователь с неподтвержденной почтой" vertex="1">
+          <mxGeometry height="60" width="30" x="170" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="penVImUHDbPz1qeiOtP_-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;verticalAlign=top;" value="Просматривать контент не требующий авторизации (промо страница, мероприятия, полигоны и т.д.)" vertex="1">
+          <mxGeometry height="90" width="225" x="240" y="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
