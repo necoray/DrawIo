@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="9xWM8fkBBqZtY7Agmd1S">
-    <mxGraphModel dx="8142" dy="2850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5872" dy="1966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -217,7 +217,7 @@
         <mxCell id="bMxaWbeN-9XLewVejcfm-100" edge="1" parent="1" source="bMxaWbeN-9XLewVejcfm-96" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="bMxaWbeN-9XLewVejcfm-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bMxaWbeN-9XLewVejcfm-96" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Проверка подтвержденности почты" vertex="1">
+        <mxCell id="bMxaWbeN-9XLewVejcfm-96" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;labelPosition=center;verticalLabelPosition=middle;" value="Проверка подтвержденности почты" vertex="1">
           <mxGeometry height="60" width="290" x="-370" y="860" as="geometry" />
         </mxCell>
         <mxCell id="bMxaWbeN-9XLewVejcfm-101" edge="1" parent="1" source="bMxaWbeN-9XLewVejcfm-97" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="bMxaWbeN-9XLewVejcfm-96">
@@ -225,6 +225,11 @@
         </mxCell>
         <mxCell id="bMxaWbeN-9XLewVejcfm-97" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Вход в аккаунт" vertex="1">
           <mxGeometry height="30" width="120" x="-285" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="bMxaWbeN-9XLewVejcfm-174" edge="1" parent="1" source="bMxaWbeN-9XLewVejcfm-102" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="bMxaWbeN-9XLewVejcfm-175">
+          <mxGeometry relative="1" x="-0.7587" as="geometry">
+            <mxPoint x="1590" y="683.6857707010038" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="bMxaWbeN-9XLewVejcfm-102" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;roundedPerimeter=1;" value="Запускаем фоновый скрипт" vertex="1">
           <mxGeometry height="30" width="240" x="1471.25" y="610" as="geometry" />
@@ -310,8 +315,8 @@
         <mxCell id="bMxaWbeN-9XLewVejcfm-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="&lt;br&gt;localstorage.&lt;b&gt;SET&lt;/b&gt;(&quot;is_email_confirmed&quot;, true)&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="280" x="1737" y="1434.5" as="geometry" />
         </mxCell>
-        <mxCell id="bMxaWbeN-9XLewVejcfm-135" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Перенаправить на email/confirmation" vertex="1">
-          <mxGeometry height="40" width="120" x="1546.25" y="1524.5" as="geometry" />
+        <mxCell id="bMxaWbeN-9XLewVejcfm-135" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Перенаправить на email/confirmation с сохранением адреса, откуда пришли" vertex="1">
+          <mxGeometry height="90.5" width="120" x="1546.25" y="1524.5" as="geometry" />
         </mxCell>
         <mxCell id="bMxaWbeN-9XLewVejcfm-140" edge="1" parent="1" source="bMxaWbeN-9XLewVejcfm-138" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="bMxaWbeN-9XLewVejcfm-117">
           <mxGeometry relative="1" as="geometry" />
@@ -321,41 +326,27 @@
             <mxPoint x="-3" y="40" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bMxaWbeN-9XLewVejcfm-143" edge="1" parent="1" source="bMxaWbeN-9XLewVejcfm-138" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="bMxaWbeN-9XLewVejcfm-142" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="bMxaWbeN-9XLewVejcfm-143" edge="1" parent="1" source="bMxaWbeN-9XLewVejcfm-138" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bMxaWbeN-9XLewVejcfm-148" value="">
+          <mxGeometry relative="1" x="0.004" as="geometry">
+            <Array as="points">
+              <mxPoint x="1957" y="1210" />
+            </Array>
+            <mxPoint x="1864.589285" y="1270" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="bMxaWbeN-9XLewVejcfm-144" connectable="0" parent="bMxaWbeN-9XLewVejcfm-143" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="False" vertex="1">
-          <mxGeometry relative="1" x="-0.2818" y="2" as="geometry">
+          <mxGeometry relative="1" x="-0.7207" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bMxaWbeN-9XLewVejcfm-138" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;roundedPerimeter=1;labelPosition=center;verticalLabelPosition=middle;" value="data.email == true&amp;nbsp;" vertex="1">
+        <mxCell id="bMxaWbeN-9XLewVejcfm-138" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;roundedPerimeter=1;labelPosition=center;verticalLabelPosition=middle;" value="data.email" vertex="1">
           <mxGeometry height="80" width="412.5" x="1400" y="1169" as="geometry" />
         </mxCell>
-        <mxCell id="bMxaWbeN-9XLewVejcfm-146" edge="1" parent="1" source="bMxaWbeN-9XLewVejcfm-142" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="bMxaWbeN-9XLewVejcfm-111">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bMxaWbeN-9XLewVejcfm-147" connectable="0" parent="bMxaWbeN-9XLewVejcfm-146" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="True" vertex="1">
-          <mxGeometry relative="1" x="-0.2611" y="1" as="geometry">
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bMxaWbeN-9XLewVejcfm-149" edge="1" parent="1" source="bMxaWbeN-9XLewVejcfm-142" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="bMxaWbeN-9XLewVejcfm-148">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bMxaWbeN-9XLewVejcfm-151" connectable="0" parent="bMxaWbeN-9XLewVejcfm-149" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="False" vertex="1">
-          <mxGeometry relative="1" x="-0.3497" y="2" as="geometry">
-            <mxPoint x="3" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bMxaWbeN-9XLewVejcfm-142" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;roundedPerimeter=1;" value="window.location.href != &quot;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;/email/reset&lt;/span&gt;&lt;span style=&quot;text-decoration-line: inherit; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&quot;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="80" width="185" x="1860" y="1230" as="geometry" />
-        </mxCell>
-        <mxCell id="bMxaWbeN-9XLewVejcfm-148" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Перенаправить на email/confirmation" vertex="1">
-          <mxGeometry height="40" width="120" x="1897" y="1360" as="geometry" />
+        <mxCell id="bMxaWbeN-9XLewVejcfm-148" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Перенаправить на email/reset" vertex="1">
+          <mxGeometry height="40" width="120" x="1897" y="1260" as="geometry" />
         </mxCell>
         <mxCell id="bMxaWbeN-9XLewVejcfm-152" parent="1" style="shape=wedgeCallout;whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;roundedPerimeter=1;" value="Скорее всего невозможный случай, так как почта обязательна при регистрации" vertex="1">
-          <mxGeometry height="80" width="120" x="1830" y="1100" as="geometry" />
+          <mxGeometry height="80" width="120" x="1860" y="1080" as="geometry" />
         </mxCell>
         <mxCell id="bMxaWbeN-9XLewVejcfm-155" edge="1" parent="1" source="bMxaWbeN-9XLewVejcfm-116" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="bMxaWbeN-9XLewVejcfm-154" value="">
           <mxGeometry relative="1" as="geometry">
@@ -374,24 +365,28 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bMxaWbeN-9XLewVejcfm-160" edge="1" parent="1" source="bMxaWbeN-9XLewVejcfm-159" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="bMxaWbeN-9XLewVejcfm-106">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="bMxaWbeN-9XLewVejcfm-160" edge="1" parent="1" source="bMxaWbeN-9XLewVejcfm-175" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="bMxaWbeN-9XLewVejcfm-106">
+          <mxGeometry relative="1" x="0.2223" as="geometry">
+            <mxPoint x="1590" y="796.3142292989962" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="bMxaWbeN-9XLewVejcfm-161" connectable="0" parent="bMxaWbeN-9XLewVejcfm-160" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="True" vertex="1">
           <mxGeometry relative="1" x="-0.3639" y="-2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bMxaWbeN-9XLewVejcfm-162" edge="1" parent="1" source="bMxaWbeN-9XLewVejcfm-159" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="bMxaWbeN-9XLewVejcfm-111">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bMxaWbeN-9XLewVejcfm-163" connectable="0" parent="bMxaWbeN-9XLewVejcfm-162" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="False" vertex="1">
-          <mxGeometry relative="1" x="-0.5863" y="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="bMxaWbeN-9XLewVejcfm-162" edge="1" parent="1" source="bMxaWbeN-9XLewVejcfm-175" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="bMxaWbeN-9XLewVejcfm-111">
+          <mxGeometry relative="1" x="0.1476" as="geometry">
+            <Array as="points">
+              <mxPoint x="2090" y="750" />
+            </Array>
+            <mxPoint x="1641.6213768574125" y="740" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bMxaWbeN-9XLewVejcfm-159" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;roundedPerimeter=1;labelPosition=center;verticalLabelPosition=middle;labelBorderColor=default;" value="isAuthorized" vertex="1">
-          <mxGeometry height="80" width="110" x="1535" y="680" as="geometry" />
+        <mxCell id="bMxaWbeN-9XLewVejcfm-163" connectable="0" parent="bMxaWbeN-9XLewVejcfm-162" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="False" vertex="1">
+          <mxGeometry relative="1" x="-0.6576" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="bMxaWbeN-9XLewVejcfm-165" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Авторизированный пользователь" vertex="1">
           <mxGeometry height="60" width="30" x="80" y="330" as="geometry" />
@@ -420,6 +415,9 @@
             <mxPoint x="50" y="446" as="sourcePoint" />
             <mxPoint x="330" y="370" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bMxaWbeN-9XLewVejcfm-175" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;roundedPerimeter=1;labelPosition=center;verticalLabelPosition=middle;" value="isAuthorized AND window.location.href not in [&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;/email/reset&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); text-decoration-line: inherit;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;text-decoration-line: inherit; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;, &quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;email/confirmation&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); text-decoration-line: inherit;&quot;&gt;&quot;]&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="330" x="1426.25" y="700" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
