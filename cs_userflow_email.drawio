@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="9xWM8fkBBqZtY7Agmd1S">
-    <mxGraphModel dx="5872" dy="1966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4139" dy="1658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,16 +172,19 @@
         <mxCell id="bMxaWbeN-9XLewVejcfm-81" edge="1" parent="1" source="bMxaWbeN-9XLewVejcfm-79" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="bMxaWbeN-9XLewVejcfm-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bMxaWbeN-9XLewVejcfm-79" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;perimeter=cloudPerimeter;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;roundedPerimeter=1;labelPosition=center;verticalLabelPosition=middle;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: medium; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;/api/v1/auth/password-check/&lt;/span&gt;" vertex="1">
+        <mxCell id="bMxaWbeN-9XLewVejcfm-79" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;perimeter=cloudPerimeter;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;roundedPerimeter=1;labelPosition=center;verticalLabelPosition=middle;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: medium; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;POST /api/v1/auth/password-check/&lt;/span&gt;" vertex="1">
           <mxGeometry height="160" width="320" x="560" y="2160" as="geometry" />
+        </mxCell>
+        <mxCell id="isCF0IMxzSs-jrf05Y-Z-2" edge="1" parent="1" source="bMxaWbeN-9XLewVejcfm-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="isCF0IMxzSs-jrf05Y-Z-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bMxaWbeN-9XLewVejcfm-80" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;roundedPerimeter=1;labelPosition=center;verticalLabelPosition=middle;" value="Запрос выполнен успешно" vertex="1">
           <mxGeometry height="110" width="130" x="890" y="2180" as="geometry" />
         </mxCell>
-        <mxCell id="bMxaWbeN-9XLewVejcfm-83" edge="1" parent="1" source="bMxaWbeN-9XLewVejcfm-80" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;strokeWidth=3;fillColor=default;startArrow=none;startFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="bMxaWbeN-9XLewVejcfm-41" value="">
+        <mxCell id="bMxaWbeN-9XLewVejcfm-83" edge="1" parent="1" source="isCF0IMxzSs-jrf05Y-Z-3" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;strokeWidth=3;fillColor=default;startArrow=none;startFill=0;entryX=0.785;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="bMxaWbeN-9XLewVejcfm-41" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="970" y="1960" as="sourcePoint" />
-            <mxPoint x="1535" y="1930" as="targetPoint" />
+            <mxPoint x="1200" y="1940" as="sourcePoint" />
+            <mxPoint x="1175" y="1810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bMxaWbeN-9XLewVejcfm-85" connectable="0" parent="bMxaWbeN-9XLewVejcfm-83" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Переадресация на страницу подтверждения" vertex="1">
@@ -418,6 +421,23 @@
         </mxCell>
         <mxCell id="bMxaWbeN-9XLewVejcfm-175" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;roundedPerimeter=1;labelPosition=center;verticalLabelPosition=middle;" value="isAuthorized AND window.location.href not in [&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;/email/reset&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); text-decoration-line: inherit;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;text-decoration-line: inherit; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;, &quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;email/confirmation&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); text-decoration-line: inherit;&quot;&gt;&quot;]&lt;/span&gt;" vertex="1">
           <mxGeometry height="80" width="330" x="1426.25" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="isCF0IMxzSs-jrf05Y-Z-7" edge="1" parent="1" source="isCF0IMxzSs-jrf05Y-Z-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;" target="isCF0IMxzSs-jrf05Y-Z-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="isCF0IMxzSs-jrf05Y-Z-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;perimeter=cloudPerimeter;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;roundedPerimeter=1;labelPosition=center;verticalLabelPosition=middle;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: medium; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;POST &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: medium; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;/api/v1/users/me/edit/ &lt;br/&gt;С новым email&lt;/span&gt;" vertex="1">
+          <mxGeometry height="160" width="320" x="1120" y="2178" as="geometry" />
+        </mxCell>
+        <mxCell id="isCF0IMxzSs-jrf05Y-Z-6" edge="1" parent="1" source="isCF0IMxzSs-jrf05Y-Z-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="bMxaWbeN-9XLewVejcfm-93">
+          <mxGeometry relative="1" x="-0.0597" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="2082.5" />
+              <mxPoint x="1070" y="2381.4" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isCF0IMxzSs-jrf05Y-Z-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;roundedPerimeter=1;labelPosition=center;verticalLabelPosition=middle;" value="Запрос выполнен успешно" vertex="1">
+          <mxGeometry height="110" width="130" x="1200" y="1990" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
