@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="9xWM8fkBBqZtY7Agmd1S">
-    <mxGraphModel dx="4139" dy="1658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5962" dy="2860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -438,6 +438,9 @@
         </mxCell>
         <mxCell id="isCF0IMxzSs-jrf05Y-Z-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;roundedPerimeter=1;labelPosition=center;verticalLabelPosition=middle;" value="Запрос выполнен успешно" vertex="1">
           <mxGeometry height="110" width="130" x="1200" y="1990" as="geometry" />
+        </mxCell>
+        <mxCell id="isCF0IMxzSs-jrf05Y-Z-10" parent="1" style="shape=wedgeCallout;whiteSpace=wrap;html=1;" value="В случае если имейл подтвержден можно отключить скрипт, НО ОБЯЗАТЕЛЬНО его нужно запустить при смене почты" vertex="1">
+          <mxGeometry height="90" width="195" x="1822" y="760" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
